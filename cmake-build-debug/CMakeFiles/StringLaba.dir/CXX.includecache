@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anatolii/CLionProjects/StringLaba/Strings/AString.h
+string
+-
+
+/home/anatolii/CLionProjects/StringLaba/Strings/Action.cpp
+iostream
+-
+Action.h
+/home/anatolii/CLionProjects/StringLaba/Strings/Action.h
+HexString.h
+/home/anatolii/CLionProjects/StringLaba/Strings/HexString.h
+BinString.h
+/home/anatolii/CLionProjects/StringLaba/Strings/BinString.h
+
+/home/anatolii/CLionProjects/StringLaba/Strings/Action.h
+AString.h
+/home/anatolii/CLionProjects/StringLaba/Strings/AString.h
+
+/home/anatolii/CLionProjects/StringLaba/Strings/BinString.h
+string
+-
+AString.h
+/home/anatolii/CLionProjects/StringLaba/Strings/AString.h
+
+/home/anatolii/CLionProjects/StringLaba/Strings/HexString.h
+string
+-
+AString.h
+/home/anatolii/CLionProjects/StringLaba/Strings/AString.h
+
