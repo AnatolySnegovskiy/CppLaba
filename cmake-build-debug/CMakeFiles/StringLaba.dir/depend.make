@@ -18,6 +18,7 @@ CMakeFiles/StringLaba.dir/Strings/Factory.cpp.o: ../Strings/Factory.cpp
 CMakeFiles/StringLaba.dir/Strings/Factory.cpp.o: ../Strings/Factory.h
 CMakeFiles/StringLaba.dir/Strings/Factory.cpp.o: ../Strings/HexString.h
 CMakeFiles/StringLaba.dir/Strings/Factory.cpp.o: ../Strings/Menu.h
+CMakeFiles/StringLaba.dir/Strings/Factory.cpp.o: ../Strings/OctString.h
 CMakeFiles/StringLaba.dir/Strings/Factory.cpp.o: ../Strings/SymbString.h
 
 CMakeFiles/StringLaba.dir/Strings/HexString.cpp.o: ../Strings/AString.h
@@ -32,8 +33,13 @@ CMakeFiles/StringLaba.dir/Strings/Menu.cpp.o: ../Strings/Menu.cpp
 CMakeFiles/StringLaba.dir/Strings/Menu.cpp.o: ../Strings/Menu.h
 CMakeFiles/StringLaba.dir/Strings/Menu.cpp.o: ../Strings/SymbString.h
 
+CMakeFiles/StringLaba.dir/Strings/OctString.cpp.o: ../Strings/AString.h
+CMakeFiles/StringLaba.dir/Strings/OctString.cpp.o: ../Strings/OctString.cpp
+CMakeFiles/StringLaba.dir/Strings/OctString.cpp.o: ../Strings/OctString.h
+
 CMakeFiles/StringLaba.dir/Strings/ShowBin.cpp.o: ../Strings/AString.h
 CMakeFiles/StringLaba.dir/Strings/ShowBin.cpp.o: ../Strings/Action.h
+CMakeFiles/StringLaba.dir/Strings/ShowBin.cpp.o: ../Strings/BinString.h
 CMakeFiles/StringLaba.dir/Strings/ShowBin.cpp.o: ../Strings/ShowBin.cpp
 CMakeFiles/StringLaba.dir/Strings/ShowBin.cpp.o: ../Strings/ShowBin.h
 CMakeFiles/StringLaba.dir/Strings/ShowBin.cpp.o: ../Strings/ShowDec.h
@@ -46,6 +52,7 @@ CMakeFiles/StringLaba.dir/Strings/ShowDec.cpp.o: ../Strings/ShowDec.h
 
 CMakeFiles/StringLaba.dir/Strings/ShowStr.cpp.o: ../Strings/AString.h
 CMakeFiles/StringLaba.dir/Strings/ShowStr.cpp.o: ../Strings/Action.h
+CMakeFiles/StringLaba.dir/Strings/ShowStr.cpp.o: ../Strings/BinString.h
 CMakeFiles/StringLaba.dir/Strings/ShowStr.cpp.o: ../Strings/ShowStr.cpp
 CMakeFiles/StringLaba.dir/Strings/ShowStr.cpp.o: ../Strings/ShowStr.h
 

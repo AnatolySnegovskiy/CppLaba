@@ -19,6 +19,7 @@ CMakeFiles/StringLaba.dir/Strings/Factory.cpp.o
  /home/anatolii/CLionProjects/StringLaba/Strings/Factory.h
  /home/anatolii/CLionProjects/StringLaba/Strings/HexString.h
  /home/anatolii/CLionProjects/StringLaba/Strings/Menu.h
+ /home/anatolii/CLionProjects/StringLaba/Strings/OctString.h
  /home/anatolii/CLionProjects/StringLaba/Strings/SymbString.h
 CMakeFiles/StringLaba.dir/Strings/HexString.cpp.o
  /home/anatolii/CLionProjects/StringLaba/Strings/AString.h
@@ -32,9 +33,14 @@ CMakeFiles/StringLaba.dir/Strings/Menu.cpp.o
  /home/anatolii/CLionProjects/StringLaba/Strings/Menu.cpp
  /home/anatolii/CLionProjects/StringLaba/Strings/Menu.h
  /home/anatolii/CLionProjects/StringLaba/Strings/SymbString.h
+CMakeFiles/StringLaba.dir/Strings/OctString.cpp.o
+ /home/anatolii/CLionProjects/StringLaba/Strings/AString.h
+ /home/anatolii/CLionProjects/StringLaba/Strings/OctString.cpp
+ /home/anatolii/CLionProjects/StringLaba/Strings/OctString.h
 CMakeFiles/StringLaba.dir/Strings/ShowBin.cpp.o
  /home/anatolii/CLionProjects/StringLaba/Strings/AString.h
  /home/anatolii/CLionProjects/StringLaba/Strings/Action.h
+ /home/anatolii/CLionProjects/StringLaba/Strings/BinString.h
  /home/anatolii/CLionProjects/StringLaba/Strings/ShowBin.cpp
  /home/anatolii/CLionProjects/StringLaba/Strings/ShowBin.h
  /home/anatolii/CLionProjects/StringLaba/Strings/ShowDec.h
@@ -47,6 +53,7 @@ CMakeFiles/StringLaba.dir/Strings/ShowDec.cpp.o
 CMakeFiles/StringLaba.dir/Strings/ShowStr.cpp.o
  /home/anatolii/CLionProjects/StringLaba/Strings/AString.h
  /home/anatolii/CLionProjects/StringLaba/Strings/Action.h
+ /home/anatolii/CLionProjects/StringLaba/Strings/BinString.h
  /home/anatolii/CLionProjects/StringLaba/Strings/ShowStr.cpp
  /home/anatolii/CLionProjects/StringLaba/Strings/ShowStr.h
 CMakeFiles/StringLaba.dir/main.cpp.o

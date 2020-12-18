@@ -4,6 +4,7 @@
 #include "SymbString.h"
 #include "HexString.h"
 #include "BinString.h"
+#include "OctString.h"
 
 using namespace std;
 
@@ -15,8 +16,9 @@ void Factory::AddObject() {
     cout << "1. Symbolic string" << endl;
     cout << "2. Binary string" << endl;
     cout << "3. Hexadecimal string" << endl;
+    cout << "3. OctString string" << endl;
 
-    int item = Menu::SelectItem(3);
+    int item = Menu::SelectItem(4);
 
     string name;
     cout << "Enter object name: ";
@@ -39,6 +41,9 @@ void Factory::AddObject() {
             break;
         case 3:
             pNewObj = new HexString(name, value);
+            break;
+        case 4:
+            pNewObj = new OctString(name, value);
             break;
     }
 

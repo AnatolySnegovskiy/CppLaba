@@ -1,22 +1,18 @@
-#include <iostream>
 #include "BinString.h"
+#include <bitset>
 
 using namespace std;
 
-bool IsBinaryStrVal(string _str) {
-    for (int i = 0; i < _str.size(); ++i) {
-        if (_str[i] != '0' && _str[i] != '1') {
-            cout << "this char is not binary: " << _str[i] << endl;
-            return false;
-        }
+string toBinaryStrVal(string _str) {
+    string binaryString = "";
+    for (char& _char : _str) {
+        binaryString +=bitset<8>(_char).to_string();
     }
 
-    return true;
+    return binaryString;
 }
 
 BinString::BinString(string _name, string _val) :
         name(_name) {
-    if (IsBinaryStrVal(_val)) {
-        val = _val;
-    }
+        val = toBinaryStrVal(_val);
 }

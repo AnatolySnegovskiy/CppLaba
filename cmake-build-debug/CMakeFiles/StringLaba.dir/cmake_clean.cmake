@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/StringLaba.dir/Strings/Factory.cpp.o"
   "CMakeFiles/StringLaba.dir/Strings/HexString.cpp.o"
   "CMakeFiles/StringLaba.dir/Strings/Menu.cpp.o"
+  "CMakeFiles/StringLaba.dir/Strings/OctString.cpp.o"
   "CMakeFiles/StringLaba.dir/Strings/ShowBin.cpp.o"
   "CMakeFiles/StringLaba.dir/Strings/ShowDec.cpp.o"
   "CMakeFiles/StringLaba.dir/Strings/ShowStr.cpp.o"

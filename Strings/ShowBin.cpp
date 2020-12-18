@@ -2,18 +2,25 @@
 #include "ShowBin.h"
 #include "ShowDec.h"
 #include "AString.h"
+#include "BinString.h"
 
 using namespace std;
 
-void ShowBin::Operate(AString * pObj) {
+void ShowBin::Operate(AString *pObj) {
     cout << pObj->GetName() << ": ";
-    cout << GetBinary(pObj) << endl;
+
+    if (dynamic_cast<BinString *>(pObj)) {
+        cout << pObj->GetVal() << endl;
+    } else {
+        cout << GetBinary(pObj) << endl;
+    }
+
     cin.get();
 }
 
-string ShowBin::GetBinary(AString * pObj) {
+string ShowBin::GetBinary(AString *pObj) {
     int nBinDigit = 4 * pObj->GetSize();
-    char* binStr = new char[nBinDigit + 1];
+    char *binStr = new char[nBinDigit + 1];
 
     for (int k = 0; k < nBinDigit; ++k) {
         binStr[k] = '0';
@@ -35,7 +42,7 @@ string ShowBin::GetBinary(AString * pObj) {
     }
 
     string temp(binStr);
-    delete [] binStr;
+    delete[] binStr;
     return temp;
 }
 

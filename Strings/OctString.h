@@ -1,12 +1,12 @@
 #include <string>
 #include "AString.h"
 
-std::string toBinaryStrVal(std::string);
+std::string IsBinaryStrVal(std::string);
 
-class BinString : public AString {
+class OctString : public AString {
 public:
-    BinString(std::string _name) : name(_name) {}
-    BinString(std::string _name, std::string _val);
+    OctString(std::string _name) : name(_name) {}
+    OctString(std::string _name, std::string _val);
 
     const std::string& GetName() const {return name;}
     const std::string& GetVal() const {return val;}

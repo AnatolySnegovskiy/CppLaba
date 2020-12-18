@@ -11,6 +11,7 @@ public:
 
 protected:
     long GetDecimal(AString* pObj) const;
+    std::string GetString(AString* pObj) const;
 };
 
 #endif

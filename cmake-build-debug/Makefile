@@ -278,6 +278,33 @@ Strings/Menu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/Menu.cpp.s
 .PHONY : Strings/Menu.cpp.s
 
+Strings/OctString.o: Strings/OctString.cpp.o
+
+.PHONY : Strings/OctString.o
+
+# target to build an object file
+Strings/OctString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/OctString.cpp.o
+.PHONY : Strings/OctString.cpp.o
+
+Strings/OctString.i: Strings/OctString.cpp.i
+
+.PHONY : Strings/OctString.i
+
+# target to preprocess a source file
+Strings/OctString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/OctString.cpp.i
+.PHONY : Strings/OctString.cpp.i
+
+Strings/OctString.s: Strings/OctString.cpp.s
+
+.PHONY : Strings/OctString.s
+
+# target to generate assembly for a file
+Strings/OctString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/OctString.cpp.s
+.PHONY : Strings/OctString.cpp.s
+
 Strings/ShowBin.o: Strings/ShowBin.cpp.o
 
 .PHONY : Strings/ShowBin.o
@@ -410,6 +437,9 @@ help:
 	@echo "... Strings/Menu.o"
 	@echo "... Strings/Menu.i"
 	@echo "... Strings/Menu.s"
+	@echo "... Strings/OctString.o"
+	@echo "... Strings/OctString.i"
+	@echo "... Strings/OctString.s"
 	@echo "... Strings/ShowBin.o"
 	@echo "... Strings/ShowBin.i"
 	@echo "... Strings/ShowBin.s"

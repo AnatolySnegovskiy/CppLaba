@@ -12,10 +12,35 @@ long Action::GetDecimal(AString *pObj) const {
         sscanf(source.c_str(), "%1X", &dest);
         return dest;
     } else if (dynamic_cast<BinString *>(pObj)) {
-        string source = pObj->GetVal();
-        return atoi(source.c_str());
+        long dest;
+        string source = GetString(pObj);
+        sscanf(source.c_str(), "%1X", &dest);
+        return dest;
     } else {
-        cout << "Action not supported" << endl;
-        return -1;
+        long dest;
+        string source = pObj->GetVal();
+        sscanf(source.c_str(), "%1X", &dest);
+        return dest;
+    }
+}
+
+string Action::GetString(AString *pObj) const {
+    if (dynamic_cast<BinString *>(pObj)) {
+        string val = pObj->GetVal();
+        string newstring = "";
+
+        for (int i = 0; i < val.size(); i = i + 8) {
+            char parsed = 0;
+            for (int j = 0; j < 8; j++) {
+                if (val[i + j] == '1') {
+                    parsed |= 1 << (7 - j);
+                }
+            }
+            newstring += parsed;
+        }
+
+        return newstring;
+    } else {
+        return pObj->GetVal();
     }
 }
