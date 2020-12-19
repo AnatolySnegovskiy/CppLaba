@@ -143,6 +143,33 @@ StringLaba/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/build
 .PHONY : StringLaba/fast
 
+Strings/AString.o: Strings/AString.cpp.o
+
+.PHONY : Strings/AString.o
+
+# target to build an object file
+Strings/AString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/AString.cpp.o
+.PHONY : Strings/AString.cpp.o
+
+Strings/AString.i: Strings/AString.cpp.i
+
+.PHONY : Strings/AString.i
+
+# target to preprocess a source file
+Strings/AString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/AString.cpp.i
+.PHONY : Strings/AString.cpp.i
+
+Strings/AString.s: Strings/AString.cpp.s
+
+.PHONY : Strings/AString.s
+
+# target to generate assembly for a file
+Strings/AString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/AString.cpp.s
+.PHONY : Strings/AString.cpp.s
+
 Strings/Action.o: Strings/Action.cpp.o
 
 .PHONY : Strings/Action.o
@@ -196,6 +223,33 @@ Strings/BinString.s: Strings/BinString.cpp.s
 Strings/BinString.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/BinString.cpp.s
 .PHONY : Strings/BinString.cpp.s
+
+Strings/DecString.o: Strings/DecString.cpp.o
+
+.PHONY : Strings/DecString.o
+
+# target to build an object file
+Strings/DecString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/DecString.cpp.o
+.PHONY : Strings/DecString.cpp.o
+
+Strings/DecString.i: Strings/DecString.cpp.i
+
+.PHONY : Strings/DecString.i
+
+# target to preprocess a source file
+Strings/DecString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/DecString.cpp.i
+.PHONY : Strings/DecString.cpp.i
+
+Strings/DecString.s: Strings/DecString.cpp.s
+
+.PHONY : Strings/DecString.s
+
+# target to generate assembly for a file
+Strings/DecString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/DecString.cpp.s
+.PHONY : Strings/DecString.cpp.s
 
 Strings/Factory.o: Strings/Factory.cpp.o
 
@@ -359,6 +413,60 @@ Strings/ShowDec.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/ShowDec.cpp.s
 .PHONY : Strings/ShowDec.cpp.s
 
+Strings/ShowHex.o: Strings/ShowHex.cpp.o
+
+.PHONY : Strings/ShowHex.o
+
+# target to build an object file
+Strings/ShowHex.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/ShowHex.cpp.o
+.PHONY : Strings/ShowHex.cpp.o
+
+Strings/ShowHex.i: Strings/ShowHex.cpp.i
+
+.PHONY : Strings/ShowHex.i
+
+# target to preprocess a source file
+Strings/ShowHex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/ShowHex.cpp.i
+.PHONY : Strings/ShowHex.cpp.i
+
+Strings/ShowHex.s: Strings/ShowHex.cpp.s
+
+.PHONY : Strings/ShowHex.s
+
+# target to generate assembly for a file
+Strings/ShowHex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/ShowHex.cpp.s
+.PHONY : Strings/ShowHex.cpp.s
+
+Strings/ShowOct.o: Strings/ShowOct.cpp.o
+
+.PHONY : Strings/ShowOct.o
+
+# target to build an object file
+Strings/ShowOct.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/ShowOct.cpp.o
+.PHONY : Strings/ShowOct.cpp.o
+
+Strings/ShowOct.i: Strings/ShowOct.cpp.i
+
+.PHONY : Strings/ShowOct.i
+
+# target to preprocess a source file
+Strings/ShowOct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/ShowOct.cpp.i
+.PHONY : Strings/ShowOct.cpp.i
+
+Strings/ShowOct.s: Strings/ShowOct.cpp.s
+
+.PHONY : Strings/ShowOct.s
+
+# target to generate assembly for a file
+Strings/ShowOct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/ShowOct.cpp.s
+.PHONY : Strings/ShowOct.cpp.s
+
 Strings/ShowStr.o: Strings/ShowStr.cpp.o
 
 .PHONY : Strings/ShowStr.o
@@ -422,12 +530,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... StringLaba"
+	@echo "... Strings/AString.o"
+	@echo "... Strings/AString.i"
+	@echo "... Strings/AString.s"
 	@echo "... Strings/Action.o"
 	@echo "... Strings/Action.i"
 	@echo "... Strings/Action.s"
 	@echo "... Strings/BinString.o"
 	@echo "... Strings/BinString.i"
 	@echo "... Strings/BinString.s"
+	@echo "... Strings/DecString.o"
+	@echo "... Strings/DecString.i"
+	@echo "... Strings/DecString.s"
 	@echo "... Strings/Factory.o"
 	@echo "... Strings/Factory.i"
 	@echo "... Strings/Factory.s"
@@ -446,6 +560,12 @@ help:
 	@echo "... Strings/ShowDec.o"
 	@echo "... Strings/ShowDec.i"
 	@echo "... Strings/ShowDec.s"
+	@echo "... Strings/ShowHex.o"
+	@echo "... Strings/ShowHex.i"
+	@echo "... Strings/ShowHex.s"
+	@echo "... Strings/ShowOct.o"
+	@echo "... Strings/ShowOct.i"
+	@echo "... Strings/ShowOct.s"
 	@echo "... Strings/ShowStr.o"
 	@echo "... Strings/ShowStr.i"
 	@echo "... Strings/ShowStr.s"

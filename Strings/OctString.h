@@ -1,8 +1,6 @@
 #include <string>
 #include "AString.h"
 
-std::string IsBinaryStrVal(std::string);
-
 class OctString : public AString {
 public:
     OctString(std::string _name) : name(_name) {}

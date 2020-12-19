@@ -13,4 +13,4 @@ add_executable(StringLaba main.cpp
         Strings/ShowDec.cpp Strings/ShowDec.h
         Strings/ShowStr.cpp Strings/ShowStr.h
         Strings/SymbString.h
-        Strings/BinString.cpp Strings/BinString.h Strings/OctString.cpp Strings/OctString.h)
+        Strings/BinString.cpp Strings/BinString.h Strings/OctString.cpp Strings/OctString.h Strings/ShowOct.cpp Strings/ShowOct.h Strings/ShowHex.cpp Strings/ShowHex.h Strings/DecString.cpp Strings/DecString.h Strings/AString.cpp)

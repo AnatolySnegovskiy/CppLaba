@@ -1,8 +1,6 @@
 #include <string>
 #include "AString.h"
 
-std::string toBinaryStrVal(std::string);
-
 class BinString : public AString {
 public:
     BinString(std::string _name) : name(_name) {}

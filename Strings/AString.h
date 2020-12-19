@@ -12,6 +12,15 @@ public:
     virtual const std::string &GetVal() const = 0;
 
     virtual int GetSize() const = 0;
+
+protected:
+    std::string ConvertToBinary(std::string str) const;
+    std::string BinaryToDecimalString(std::string str) const;
+    std::string DecimalToOct(std::string str) const;
+    std::string DecimalToHex(std::string str) const;
+
+private:
+    bool is_number(const std::string& s) const;
 };
 
 #endif

@@ -4,16 +4,9 @@
 
 using namespace std;
 
-void ShowDec::Operate(AString * pObj) {
+void ShowDec::Operate(AString *pObj) {
     cout << pObj->GetName() << ": ";
-    long decVal = GetDecimal(pObj);
-
-    if (decVal != -1) {
-        cout << decVal;
-    }
-
-    cout << endl;
-    cin.get();
+    cout << GetDecimal(pObj) << endl;
 }
 
 ShowDec show_dec;

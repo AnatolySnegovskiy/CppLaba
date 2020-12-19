@@ -4,15 +4,19 @@
 #include "Strings/HexString.h"
 #include "Strings/BinString.h"
 #include "Strings/Action.h"
+
 #include "Strings/ShowStr.h"
 #include "Strings/ShowDec.h"
 #include "Strings/ShowBin.h"
+#include "Strings/ShowOct.h"
+#include "Strings/ShowHex.h"
+
 #include "Strings/Factory.h"
 #include "Strings/Menu.h"
 
 using namespace std;
 
-Action *pActs[] = {&show_str, &show_dec, &show_bin};
+Action *pActs[] = {&show_str, &show_dec, &show_bin, &show_oct, &show_hex};
 
 vector<Action *> actionList(pActs, pActs + sizeof(pActs) / sizeof(Action *));
 

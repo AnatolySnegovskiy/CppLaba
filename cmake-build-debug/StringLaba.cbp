@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/AString.cpp">
+			<Option target="StringLaba"/>
+		</Unit>
 		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/AString.h">
 			<Option target="StringLaba"/>
 		</Unit>
@@ -95,6 +98,12 @@
 			<Option target="StringLaba"/>
 		</Unit>
 		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/BinString.h">
+			<Option target="StringLaba"/>
+		</Unit>
+		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/DecString.cpp">
+			<Option target="StringLaba"/>
+		</Unit>
+		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/DecString.h">
 			<Option target="StringLaba"/>
 		</Unit>
 		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/Factory.cpp">
@@ -131,6 +140,18 @@
 			<Option target="StringLaba"/>
 		</Unit>
 		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/ShowDec.h">
+			<Option target="StringLaba"/>
+		</Unit>
+		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/ShowHex.cpp">
+			<Option target="StringLaba"/>
+		</Unit>
+		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/ShowHex.h">
+			<Option target="StringLaba"/>
+		</Unit>
+		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/ShowOct.cpp">
+			<Option target="StringLaba"/>
+		</Unit>
+		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/ShowOct.h">
 			<Option target="StringLaba"/>
 		</Unit>
 		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/ShowStr.cpp">

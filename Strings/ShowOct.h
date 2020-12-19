@@ -1,8 +1,8 @@
 #include "Action.h"
 
-class ShowBin: public Action {
+class ShowOct: public Action {
 public:
-    ShowBin() : name("Show binary value"){}
+    ShowOct() : name("Show Oct value"){}
     void Operate(AString*);
     const std::string& GetName() const {return name;}
 
@@ -10,4 +10,4 @@ private:
     std::string name;
 };
 
-extern ShowBin show_bin;
+extern ShowOct show_oct;
