@@ -1,8 +1,12 @@
 #include <iostream>
 #include "Strings/AString.h"
+
 #include "Strings/SymbString.h"
 #include "Strings/HexString.h"
 #include "Strings/BinString.h"
+#include "Strings/DecString.h"
+#include "Strings/OctString.h"
+
 #include "Strings/Action.h"
 
 #include "Strings/ShowStr.h"
