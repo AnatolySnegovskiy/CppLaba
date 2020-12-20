@@ -2,6 +2,12 @@
 
 using namespace std;
 
+SymbString::SymbString(string _name, string _val) :
+        name(_name + " (SymbString)") {
+    val = _val;
+}
+
+
 SymbString SymbString::operator+(SymbString a) {
     this->val += a.GetVal();
 

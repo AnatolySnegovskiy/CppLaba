@@ -4,7 +4,7 @@
 class SymbString: public AString {
 public:
     SymbString(std::string _name) : name(_name) {}
-    SymbString(std::string _name, std::string _val) : name(_name), val(_val) {}
+    SymbString(std::string _name, std::string _val);
 
     const std::string& GetName() const {return name;}
     const std::string& GetVal() const {return val;}

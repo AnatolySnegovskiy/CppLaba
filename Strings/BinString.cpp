@@ -4,7 +4,7 @@
 using namespace std;
 
 BinString::BinString(string _name, string _val) :
-        name(_name) {
+        name(_name + " (BinString)") {
     val = ConvertToBinary(_val);
 }
 

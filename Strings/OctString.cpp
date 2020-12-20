@@ -3,7 +3,7 @@
 using namespace std;
 
 OctString::OctString(string _name, string _val) :
-        name(_name) {
+        name(_name + " (OctString)") {
     val = to_string(
             DecimalToOct(
                     BinaryToDecimal(

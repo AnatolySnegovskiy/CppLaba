@@ -40,6 +40,7 @@ int main() {
             case WorkWithObj:
                 AString *pObj = menu.SelectObject(factory);
                 Action *pAct = menu.SelectAction(pObj);
+
                 if (pAct) pAct->Operate(pObj);
                 break;
         }

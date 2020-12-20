@@ -4,7 +4,7 @@
 using namespace std;
 
 DecString::DecString(string _name, string _val) :
-        name(_name) {
+        name(_name + " (DecString)") {
     val = to_string(
             BinaryToDecimal(
                     ConvertToBinary(_val)
