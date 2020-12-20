@@ -5,7 +5,9 @@ using namespace std;
 
 DecString::DecString(string _name, string _val) :
         name(_name) {
-    val = BinaryToDecimalString(
-            ConvertToBinary(_val)
+    val = to_string(
+            BinaryToDecimal(
+                    ConvertToBinary(_val)
+            )
     );
 }

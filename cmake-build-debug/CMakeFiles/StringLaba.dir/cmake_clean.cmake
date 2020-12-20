@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/StringLaba.dir/Strings/AString.cpp.o"
   "CMakeFiles/StringLaba.dir/Strings/Action.cpp.o"
+  "CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.o"
   "CMakeFiles/StringLaba.dir/Strings/BinString.cpp.o"
   "CMakeFiles/StringLaba.dir/Strings/DecString.cpp.o"
   "CMakeFiles/StringLaba.dir/Strings/Factory.cpp.o"
@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/StringLaba.dir/Strings/ShowHex.cpp.o"
   "CMakeFiles/StringLaba.dir/Strings/ShowOct.cpp.o"
   "CMakeFiles/StringLaba.dir/Strings/ShowStr.cpp.o"
+  "CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.o"
   "CMakeFiles/StringLaba.dir/main.cpp.o"
   "StringLaba"
   "StringLaba.pdb"

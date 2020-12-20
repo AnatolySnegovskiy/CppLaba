@@ -82,9 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/AString.cpp">
-			<Option target="StringLaba"/>
-		</Unit>
 		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/AString.h">
 			<Option target="StringLaba"/>
 		</Unit>
@@ -92,6 +89,12 @@
 			<Option target="StringLaba"/>
 		</Unit>
 		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/Action.h">
+			<Option target="StringLaba"/>
+		</Unit>
+		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/BaseAction.cpp">
+			<Option target="StringLaba"/>
+		</Unit>
+		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/BaseAction.h">
 			<Option target="StringLaba"/>
 		</Unit>
 		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/BinString.cpp">
@@ -158,6 +161,9 @@
 			<Option target="StringLaba"/>
 		</Unit>
 		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/ShowStr.h">
+			<Option target="StringLaba"/>
+		</Unit>
+		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/SymbString.cpp">
 			<Option target="StringLaba"/>
 		</Unit>
 		<Unit filename="/home/anatolii/CLionProjects/StringLaba/Strings/SymbString.h">

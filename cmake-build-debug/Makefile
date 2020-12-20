@@ -143,33 +143,6 @@ StringLaba/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/build
 .PHONY : StringLaba/fast
 
-Strings/AString.o: Strings/AString.cpp.o
-
-.PHONY : Strings/AString.o
-
-# target to build an object file
-Strings/AString.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/AString.cpp.o
-.PHONY : Strings/AString.cpp.o
-
-Strings/AString.i: Strings/AString.cpp.i
-
-.PHONY : Strings/AString.i
-
-# target to preprocess a source file
-Strings/AString.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/AString.cpp.i
-.PHONY : Strings/AString.cpp.i
-
-Strings/AString.s: Strings/AString.cpp.s
-
-.PHONY : Strings/AString.s
-
-# target to generate assembly for a file
-Strings/AString.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/AString.cpp.s
-.PHONY : Strings/AString.cpp.s
-
 Strings/Action.o: Strings/Action.cpp.o
 
 .PHONY : Strings/Action.o
@@ -196,6 +169,33 @@ Strings/Action.s: Strings/Action.cpp.s
 Strings/Action.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/Action.cpp.s
 .PHONY : Strings/Action.cpp.s
+
+Strings/BaseAction.o: Strings/BaseAction.cpp.o
+
+.PHONY : Strings/BaseAction.o
+
+# target to build an object file
+Strings/BaseAction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.o
+.PHONY : Strings/BaseAction.cpp.o
+
+Strings/BaseAction.i: Strings/BaseAction.cpp.i
+
+.PHONY : Strings/BaseAction.i
+
+# target to preprocess a source file
+Strings/BaseAction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.i
+.PHONY : Strings/BaseAction.cpp.i
+
+Strings/BaseAction.s: Strings/BaseAction.cpp.s
+
+.PHONY : Strings/BaseAction.s
+
+# target to generate assembly for a file
+Strings/BaseAction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.s
+.PHONY : Strings/BaseAction.cpp.s
 
 Strings/BinString.o: Strings/BinString.cpp.o
 
@@ -494,6 +494,33 @@ Strings/ShowStr.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/ShowStr.cpp.s
 .PHONY : Strings/ShowStr.cpp.s
 
+Strings/SymbString.o: Strings/SymbString.cpp.o
+
+.PHONY : Strings/SymbString.o
+
+# target to build an object file
+Strings/SymbString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.o
+.PHONY : Strings/SymbString.cpp.o
+
+Strings/SymbString.i: Strings/SymbString.cpp.i
+
+.PHONY : Strings/SymbString.i
+
+# target to preprocess a source file
+Strings/SymbString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.i
+.PHONY : Strings/SymbString.cpp.i
+
+Strings/SymbString.s: Strings/SymbString.cpp.s
+
+.PHONY : Strings/SymbString.s
+
+# target to generate assembly for a file
+Strings/SymbString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringLaba.dir/build.make CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.s
+.PHONY : Strings/SymbString.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -530,12 +557,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... StringLaba"
-	@echo "... Strings/AString.o"
-	@echo "... Strings/AString.i"
-	@echo "... Strings/AString.s"
 	@echo "... Strings/Action.o"
 	@echo "... Strings/Action.i"
 	@echo "... Strings/Action.s"
+	@echo "... Strings/BaseAction.o"
+	@echo "... Strings/BaseAction.i"
+	@echo "... Strings/BaseAction.s"
 	@echo "... Strings/BinString.o"
 	@echo "... Strings/BinString.i"
 	@echo "... Strings/BinString.s"
@@ -569,6 +596,9 @@ help:
 	@echo "... Strings/ShowStr.o"
 	@echo "... Strings/ShowStr.i"
 	@echo "... Strings/ShowStr.s"
+	@echo "... Strings/SymbString.o"
+	@echo "... Strings/SymbString.i"
+	@echo "... Strings/SymbString.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

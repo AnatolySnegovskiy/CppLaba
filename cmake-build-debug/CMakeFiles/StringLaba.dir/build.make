@@ -246,18 +246,31 @@ CMakeFiles/StringLaba.dir/Strings/DecString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StringLaba.dir/Strings/DecString.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anatolii/CLionProjects/StringLaba/Strings/DecString.cpp -o CMakeFiles/StringLaba.dir/Strings/DecString.cpp.s
 
-CMakeFiles/StringLaba.dir/Strings/AString.cpp.o: CMakeFiles/StringLaba.dir/flags.make
-CMakeFiles/StringLaba.dir/Strings/AString.cpp.o: ../Strings/AString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anatolii/CLionProjects/StringLaba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/StringLaba.dir/Strings/AString.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StringLaba.dir/Strings/AString.cpp.o -c /home/anatolii/CLionProjects/StringLaba/Strings/AString.cpp
+CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.o: CMakeFiles/StringLaba.dir/flags.make
+CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.o: ../Strings/SymbString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anatolii/CLionProjects/StringLaba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.o -c /home/anatolii/CLionProjects/StringLaba/Strings/SymbString.cpp
 
-CMakeFiles/StringLaba.dir/Strings/AString.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StringLaba.dir/Strings/AString.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anatolii/CLionProjects/StringLaba/Strings/AString.cpp > CMakeFiles/StringLaba.dir/Strings/AString.cpp.i
+CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anatolii/CLionProjects/StringLaba/Strings/SymbString.cpp > CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.i
 
-CMakeFiles/StringLaba.dir/Strings/AString.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StringLaba.dir/Strings/AString.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anatolii/CLionProjects/StringLaba/Strings/AString.cpp -o CMakeFiles/StringLaba.dir/Strings/AString.cpp.s
+CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anatolii/CLionProjects/StringLaba/Strings/SymbString.cpp -o CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.s
+
+CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.o: CMakeFiles/StringLaba.dir/flags.make
+CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.o: ../Strings/BaseAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anatolii/CLionProjects/StringLaba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.o -c /home/anatolii/CLionProjects/StringLaba/Strings/BaseAction.cpp
+
+CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anatolii/CLionProjects/StringLaba/Strings/BaseAction.cpp > CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.i
+
+CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anatolii/CLionProjects/StringLaba/Strings/BaseAction.cpp -o CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.s
 
 # Object files for target StringLaba
 StringLaba_OBJECTS = \
@@ -274,7 +287,8 @@ StringLaba_OBJECTS = \
 "CMakeFiles/StringLaba.dir/Strings/ShowOct.cpp.o" \
 "CMakeFiles/StringLaba.dir/Strings/ShowHex.cpp.o" \
 "CMakeFiles/StringLaba.dir/Strings/DecString.cpp.o" \
-"CMakeFiles/StringLaba.dir/Strings/AString.cpp.o"
+"CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.o" \
+"CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.o"
 
 # External object files for target StringLaba
 StringLaba_EXTERNAL_OBJECTS =
@@ -292,10 +306,11 @@ StringLaba: CMakeFiles/StringLaba.dir/Strings/OctString.cpp.o
 StringLaba: CMakeFiles/StringLaba.dir/Strings/ShowOct.cpp.o
 StringLaba: CMakeFiles/StringLaba.dir/Strings/ShowHex.cpp.o
 StringLaba: CMakeFiles/StringLaba.dir/Strings/DecString.cpp.o
-StringLaba: CMakeFiles/StringLaba.dir/Strings/AString.cpp.o
+StringLaba: CMakeFiles/StringLaba.dir/Strings/SymbString.cpp.o
+StringLaba: CMakeFiles/StringLaba.dir/Strings/BaseAction.cpp.o
 StringLaba: CMakeFiles/StringLaba.dir/build.make
 StringLaba: CMakeFiles/StringLaba.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anatolii/CLionProjects/StringLaba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable StringLaba"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anatolii/CLionProjects/StringLaba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable StringLaba"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StringLaba.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
