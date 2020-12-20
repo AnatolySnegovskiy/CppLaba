@@ -84,10 +84,7 @@ long BaseAction::DecimalToOct(long decimal) const {
 
 string BaseAction::DecimalToHex(long decimal) const {
     unsigned long dec = decimal;
-    basic_string<char> str = to_string(dec);
-
-    char hex[str.size()];
-
+    char *hex = new char[to_string(dec).size()];
     sprintf(hex, "%x", dec);
     return hex;
 }
