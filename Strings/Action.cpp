@@ -68,11 +68,11 @@ long Action::GetOct(AString *pObj) const {
     } else if (dynamic_cast<OctString *>(pObj)) {
         return atol(pObj->GetVal().c_str());
     } else if (dynamic_cast<BinString *>(pObj)) {
-        return BinaryToDecimal(pObj->GetVal());
+        return DecimalToOct(BinaryToDecimal(pObj->GetVal()));
     } else if (dynamic_cast<HexString *>(pObj)) {
-        return HexadecimalToDecimal(pObj->GetVal());
+        return DecimalToOct(HexadecimalToDecimal(pObj->GetVal()));
     } else if (dynamic_cast<SymbString *>(pObj)) {
-        return BinaryToDecimal(ConvertToBinary(pObj->GetVal()));
+        return DecimalToOct(BinaryToDecimal(ConvertToBinary(pObj->GetVal())));
     }
 }
 

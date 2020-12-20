@@ -69,7 +69,7 @@ void Factory::DeleteObject() {
     cout << "Delete one of the following Object:\n";
 
     for (int i = 0; i < nItem; ++i) {
-        cout << i + 1 << ". " << pObj[1]->GetName() << endl;
+        cout << i + 1 << ". " << pObj[i]->GetName() << endl;
     }
 
     int item = Menu::SelectItem(nItem);
