@@ -11,3 +11,27 @@ HexString::HexString(string _name, string _val) :
             )
     );
 }
+
+HexString HexString::operator+(HexString a) {
+    this->val =
+            DecimalToHex(
+                    HexadecimalToDecimal(this->val)
+                    +
+                    HexadecimalToDecimal(a.GetVal())
+            );
+
+
+    return HexString(this->name, this->val);
+}
+
+
+HexString HexString::operator-(HexString a) {
+    this->val =
+            DecimalToHex(
+                    HexadecimalToDecimal(this->val)
+                    -
+                    HexadecimalToDecimal(a.GetVal())
+            );
+
+    return HexString(this->name, this->val);
+}

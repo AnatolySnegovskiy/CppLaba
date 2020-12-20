@@ -28,7 +28,6 @@ long BaseAction::OctToDec(long dec) const {
 }
 
 long BaseAction::BinaryToDecimal(string binary) const {
-    cout << binary << endl;
     unsigned long long value = std::bitset<64>(binary).to_ullong();
     return value;
 }

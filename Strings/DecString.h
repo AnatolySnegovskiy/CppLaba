@@ -9,7 +9,8 @@ public:
     const std::string& GetName() const {return name;}
     const std::string& GetVal() const {return val;}
     int GetSize() const {return val.size();}
-
+    DecString operator+(DecString a);
+    DecString operator-(DecString a);
 private:
     std::string name;
     std::string val;
