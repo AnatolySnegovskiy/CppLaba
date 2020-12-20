@@ -12,7 +12,7 @@ BinString BinString::operator+(BinString a) {
     this->val =
             ConvertToBinary(
                     to_string(BinaryToDecimal(this->val) + BinaryToDecimal(a.GetVal()))
-            )
+            );
 
 
     return BinString(this->name, this->val);
